@@ -7,9 +7,7 @@ const config = {
   /* meta tags */
   siteTitle: `${base.name}'s - Knowledge Store`,
   siteTitlePostfix: ` - ${base.name}`,
-  siteDescription: `${
-    base.name
-  } is a series starters: Minimal, Equipped, Themed, Website, Blog.`,
+  siteDescription: `${base.name} knowledge sharing portal.`,
   siteImage: 'preview.jpg',
   siteLanguage: 'en',
 
