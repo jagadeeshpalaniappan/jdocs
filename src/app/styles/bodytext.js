@@ -39,8 +39,8 @@ const bodytext = css`
 
   p {
     line-height: 1.6;
-    margin: 0 0 1.5em;
-    font-size: 1em;
+    margin: 0;
+    font-size: 0.6em;
   }
 
   strong {
@@ -48,13 +48,14 @@ const bodytext = css`
   }
 
   ul {
-    margin: 0 0 1.5em;
+    margin: 0;
+    margin-left: 20px;
     list-style: none;
   }
 
   li {
-    margin: 0.8em 0;
-    line-height: 1.6;
+    margin: 0;
+    font-size: 0.6em;
     padding: 0 5px 0 20px;
     position: relative;
 
@@ -78,11 +79,19 @@ const bodytext = css`
   }
 
   h2 {
-    font-size: 1.6em;
+    background-color: var(--firstActiveColor);
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: lighter;
+    line-height: 2;
+    padding-left: 10px;
+    margin: 0 0 7px 0;
+    vertical-align: middle;
   }
 
   h3 {
-    font-size: 1.3em;
+    font-size: 0.8em;
+    color: var(--firstActiveColor);
   }
 
   .anchor {
@@ -94,7 +103,7 @@ const bodytext = css`
   }
 
   pre {
-    margin: 0 0 1.5em;
+    margin: 0;
   }
 
   & *:not(pre) > code[class*='language-'] {
@@ -104,13 +113,16 @@ const bodytext = css`
     padding: 1px 5px 2px;
     border-radius: 2px;
   }
+  
+  & code[class*="language-"], pre[class*="language-"] {
+    font-size: 0.77em;
+  }
 
   & pre[class*='language-'] {
-    background: #444;
+    margin: 10px
   }
 
   blockquote {
-    background: #f9f9f9;
     padding: 20px 20px 20px 30px;
     border-left: 5px solid #ddd;
     font-style: italic;

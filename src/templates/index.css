@@ -7,7 +7,3 @@
   padding-left: 0.75em;
   /*border-left: 0.25em solid #f99;*/
 }
-
-div.gatsby-highlight pre.language-javascript, div.gatsby-highlight pre.language-text {
-  background-color: white;
-}

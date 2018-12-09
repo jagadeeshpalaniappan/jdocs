@@ -9,12 +9,13 @@ const heading = css`
     letter-spacing: -0.03em;
     margin-bottom: 1em;
     line-height: 1.2;
-    border-left: 6px solid var(--firstActiveColor);
+    // border-left: 6px solid var(--firstActiveColor);
     padding-left: 15px;
-    color: var(--lightTextColor);
+    color: var(--firstActiveColor);
+    text-align: center;
 
     ${mq({
-      fontSize: ['1.8em', '2em', '2.2em'],
+      fontSize: ['1em', '1em', '1.2em'],
     })};
   }
 `;

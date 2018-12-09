@@ -3,7 +3,7 @@ import { injectGlobal } from 'emotion';
 
 const variables = injectGlobal`
   :root {
-    --firstActiveColor: #d00;
+    --firstActiveColor: #3578e5;
     --secondActiveColor: orange;
     --superLightGray: #ccc;
 
