@@ -2,6 +2,6 @@
 name: footerLinks
 ---
 
-- [Github](https://github.com/greglobinski/gatsby-starter-kit)
-- Built by [greg lobinski](https://www.greglobinski.com)
-- [Front-end web development](https://dev.greglobinski.com)
+- [LinkedIn](https://www.linkedin.com/in/jagadeeshpalaniappan/)
+- [Github](https://github.com/jagadeeshpalaniappan)
+- Built by [Jagadeesh Palaniappan](https://jagadeeshpalaniappan.github.io)

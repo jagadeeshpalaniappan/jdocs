@@ -6,13 +6,14 @@ import '@react-website-themes/classy-docs/styles/global';
 
 import Article from '@react-website-themes/classy-docs/components/Article';
 import Branding from '@react-website-themes/classy-docs/components/Branding';
-import Footer from '@react-website-themes/classy-docs/components/Footer';
 import Header from '@react-website-themes/classy-docs/components/Header';
 import Heading from '@react-website-themes/classy-docs/components/Heading';
 import Layout from '@react-website-themes/classy-docs/components/Layout';
 import List from '@react-website-themes/classy-docs/components/List';
 import Menu from '@react-website-themes/classy-docs/components/Menu';
 import Seo from '@react-website-themes/classy-docs/components/Seo';
+
+import Footer from '../templates/Footer';
 
 import config from 'content/meta/config';
 import menuItems from 'content/meta/menu';

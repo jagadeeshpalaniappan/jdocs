@@ -2,6 +2,6 @@
 name: hero
 ---
 
-It's a series of starters for GatsbyJS: Minimal, Equipped, Themed, Website and Blog. It's 5 in 1!
+It's my knowledge sharing portal, It's cool to learn from my learning..
 
-[more](./content)
+[Let's Learn](./content)

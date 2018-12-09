@@ -15,7 +15,6 @@ import '../templates/index.css';
 import Article from '@react-website-themes/classy-docs/components/Article';
 import Branding from '@react-website-themes/classy-docs/components/Branding';
 import Bodytext from '@react-website-themes/classy-docs/components/Bodytext';
-import Footer from '@react-website-themes/classy-docs/components/Footer';
 import Header from '@react-website-themes/classy-docs/components/Header';
 import Heading from '@react-website-themes/classy-docs/components/Heading';
 import Layout from '@react-website-themes/classy-docs/components/Layout';
@@ -23,6 +22,8 @@ import Menu from '@react-website-themes/classy-docs/components/Menu';
 import Seo from '@react-website-themes/classy-docs/components/Seo';
 import Sidebar from '@react-website-themes/classy-docs/components/Sidebar';
 import layoutSidebar from '@react-website-themes/classy-docs/styles/layoutSidebar';
+
+import Footer from './Footer';
 
 import config from 'content/meta/config';
 import menuItems from 'content/meta/menu';
