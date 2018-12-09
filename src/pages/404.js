@@ -1,19 +1,19 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import '@react-website-themes/classy-docs/styles/variables';
-import '@react-website-themes/classy-docs/styles/global';
+import '../app/styles/variables';
+import '../app/styles/global';
 
-import Article from '@react-website-themes/classy-docs/components/Article';
-import Bodytext from '@react-website-themes/classy-docs/components/Bodytext';
-import Branding from '@react-website-themes/classy-docs/components/Branding';
-import Header from '@react-website-themes/classy-docs/components/Header';
-import Heading from '@react-website-themes/classy-docs/components/Heading';
-import Layout from '@react-website-themes/classy-docs/components/Layout';
-import Menu from '@react-website-themes/classy-docs/components/Menu';
-import Seo from '@react-website-themes/classy-docs/components/Seo';
+import Article from '../app/components/Article';
+import Bodytext from '../app/components/Bodytext';
+import Branding from '../app/components/Branding';
+import Header from '../app/components/Header';
+import Footer from '../app/components/Footer';
+import Heading from '../app/components/Heading';
+import Layout from '../app/components/Layout';
+import Menu from '../app/components/Menu';
+import Seo from '../app/components/Seo';
 
-import Footer from '../templates/Footer';
 
 import config from 'content/meta/config';
 import menuItems from 'content/meta/menu';

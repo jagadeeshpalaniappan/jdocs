@@ -7,23 +7,22 @@ import React from 'react';
 // import 'prism-themes/themes/prism-vs.css';
 import 'prism-themes/themes/prism-ghcolors.css';
 
-import '@react-website-themes/classy-docs/styles/variables';
-import '@react-website-themes/classy-docs/styles/global';
+import '../app/styles/variables';
+import '../app/styles/global';
 
 import '../templates/index.css';
 
-import Article from '@react-website-themes/classy-docs/components/Article';
-import Branding from '@react-website-themes/classy-docs/components/Branding';
-import Bodytext from '@react-website-themes/classy-docs/components/Bodytext';
-import Header from '@react-website-themes/classy-docs/components/Header';
-import Heading from '@react-website-themes/classy-docs/components/Heading';
-import Layout from '@react-website-themes/classy-docs/components/Layout';
-import Menu from '@react-website-themes/classy-docs/components/Menu';
-import Seo from '@react-website-themes/classy-docs/components/Seo';
-import Sidebar from '@react-website-themes/classy-docs/components/Sidebar';
-import layoutSidebar from '@react-website-themes/classy-docs/styles/layoutSidebar';
-
-import Footer from './Footer';
+import Article from '../app/components/Article';
+import Branding from '../app/components/Branding';
+import Bodytext from '../app/components/Bodytext';
+import Header from '../app/components/Header';
+import Footer from '../app/components/Footer';
+import Heading from '../app/components/Heading';
+import Layout from '../app/components/Layout';
+import Menu from '../app/components/Menu';
+import Seo from '../app/components/Seo';
+import Sidebar from '../app/components/Sidebar';
+import layoutSidebar from '../app/styles/layoutSidebar';
 
 import config from 'content/meta/config';
 import menuItems from 'content/meta/menu';
