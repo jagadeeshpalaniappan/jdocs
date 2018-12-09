@@ -1,6 +1,6 @@
 ---
-title: Demo Page
-categories: ['general']
+title: JavaScript Concepts
+categories: ['js']
 ---
 
 Check this **bold** and _italic_ and ```code``` and <mark>highlight</mark> and [link1](https://google.com) 
